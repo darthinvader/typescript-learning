@@ -4,6 +4,7 @@ function add(n1: number, n2: number): number {
 
 function printResult(num: number): undefined {
   console.log("Result: " + num);
+  return;
 }
 
 printResult(add(5, 12));
