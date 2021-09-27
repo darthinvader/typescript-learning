@@ -15,9 +15,9 @@
 // };
 
 enum Role {
-  ADMIN,
-  READ_ONLY,
-  AUTHOR,
+  ADMIN = 5,
+  READ_ONLY = "String",
+  AUTHOR = 6,
 }
 
 const person = {
@@ -30,7 +30,7 @@ const person = {
 // person.role.push("admin");
 // person.role[1] = 10;
 
-person.role = [0, "admin"];
+// person.role = [0, "admin"];
 
 let favoriteActivities: string[];
 favoriteActivities = ["Sports"];
