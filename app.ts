@@ -9,5 +9,10 @@ const person = {
 };
 
 let favoriteActivities: string[];
-favoriteActivities = ["S"];
+favoriteActivities = ["Sports"];
+
 console.log(person.name);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase());
+}
