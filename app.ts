@@ -1,6 +1,3 @@
-console.log("Hello!");
-
-let userName = "Maximilian";
-// userName = 3;
+const userName = "Max";
 
 console.log(userName);
