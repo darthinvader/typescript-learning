@@ -1,3 +1,12 @@
+interface AddFn {
+  (a: number, b: number): number;
+}
+
+let add: AddFn;
+
+add = (a, b) => {
+  return a + b;
+};
 // type AddFn = (a: number, b: number) => number;
 // let add: AddFn;
 // add = (a, b) => {
