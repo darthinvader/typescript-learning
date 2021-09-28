@@ -1,4 +1,4 @@
-interface Greetable {
+type Greetable {
   readonly name: string;
 
   greet(phrase: string): void;
