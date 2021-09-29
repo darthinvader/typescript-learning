@@ -27,7 +27,7 @@ function WithTemplate(template: string, hookId: string) {
 @Logger("LOGGIN - PERSON")
 @WithTemplate("<h1>My person object</h1>", "app")
 class Person {
-  name = "Max";
+  name = "MIN";
   construction() {
     console.log("creating person object");
   }
