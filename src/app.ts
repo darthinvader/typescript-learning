@@ -1,7 +1,14 @@
-import _ from "lodash";
+import "reflect-metadata";
+import { plainToClass } from "class-transformer";
+import { Product } from "./product.model";
 
-declare var GLOBAL: any;
+const products = [
+  { title: "A Carpet", price: 29 },
+  { title: "A book", price: 10 },
+];
 
-console.log(_.shuffle([1, 3, 4, 6]));
+//const p1 = new Product("A book", 12.99);
 
-console.log(GLOBAL);
+const loadedProucts = plainToClass(Product, products);
+
+console.log(p1.getInformation());
